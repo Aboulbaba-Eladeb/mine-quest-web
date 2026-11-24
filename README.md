@@ -4,7 +4,7 @@
 
 Built for a 2026 community-service program by Dr. Aboulbaba Eladeb (Chemical Engineering, Northern Border University).
 
-**▶ Live demo:** https://aboulbaba-eladeb.github.io/mine-quest-web/
+**▶ Live demo:** https://mine-quest-web.vercel.app/
 
 ![Mine Quest opening slide with a 3D smartphone](docs/hero.jpg)
 
@@ -34,13 +34,13 @@ npm install
 npm run dev          # http://localhost:3000
 ```
 
-### Static build (what GitHub Pages serves)
+### Static build (optional, for any static host)
 
 ```bash
 PAGES_BASE=/mine-quest-web npm run build   # writes a static site to out/
 ```
 
-Pushing to `main` rebuilds and publishes the live demo automatically (`.github/workflows/pages.yml`).
+Pushing to `main` rebuilds and publishes the live demo on Vercel automatically.
 
 ## Licence
 
